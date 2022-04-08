@@ -1,0 +1,103 @@
+/****** CONTACTO  ***********/
+.contacto {
+    width: 75%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contacto-titulo {
+    font-family: $butler;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+.contacto-container {
+    width: 100%;
+    max-height: 900px;
+    display: flex;
+}
+
+.contacto-formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 40px;
+    width: 70%;
+    height: auto;
+    background: #FEFAE0;
+    backdrop-filter: blur(32.9347px);
+    border-radius: 23px;
+    margin: 0px 32px;
+}
+
+.contacto-intro {
+    font-size: 22px;
+    margin: 76px 0px;
+}
+
+.contacto-intro p {
+    font-size: 22px;
+}
+
+.contacto-quote {
+    font-style: italic;
+}
+
+#contacto-selectAsunto {
+    margin-bottom: 25px;
+}
+
+.contacto-boton {
+    width: 65%;
+    height: 64px;
+    background: #FAEDCD;
+    border-radius: 53px;
+    margin: 25px auto;
+    box-shadow: none;
+    border: none;
+    float: right;
+}
+
+.contacto-imagenes {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-imagenes div {
+    height: 30%;
+    backdrop-filter: blur(32.9347px);
+    border-radius: 23px;
+    margin-bottom: 10%;
+}
+
+#contacto-imagenes1 {
+    background-image: url(../IMG/img-contacto1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#contacto-imagenes2 {
+    background-image: url(../IMG/img-contacto2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#contacto-imagenes3 {
+    background-image: url(../IMG/img-contacto3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 710px) {
+    .contacto-imagenes {
+      display: none;
+    }
+    .contacto-formulario{
+        width: 100%;
+    }
+  }

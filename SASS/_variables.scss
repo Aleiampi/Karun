@@ -1,0 +1,31 @@
+// RESETS GENERALES
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    min-height: 100%;
+
+    ul{
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+// TIPOGRAFIA
+$roboto: 'Roboto', sans-serif;
+$butler: 'Butler', sans-serif;
+
+// COLORS
+$verde: #DCFF66;
+$verdeOscuro: #CCD5AE;
+$verdeClaro: #E9EDCA;
+$beige: #FEFADF;
+$marron: #D3A373;
+$marronClaro: #FAEDCD;
+$blanco: #FFF;
+$negro: #000;

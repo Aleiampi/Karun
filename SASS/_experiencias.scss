@@ -1,0 +1,119 @@
+/****TESTIMONIALES *************/
+
+.testimoniales {
+  padding: 50px 40px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.testimonial-titulo {
+  font-family: $butler;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 53px;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+
+.testimonial-contenedor {
+  padding: 0px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  overflow-x: hidden;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.07))
+    drop-shadow(7px 6px 20px rgba(0, 0, 0, 0.1));
+}
+
+.testimonials-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 24px 46px 24px;
+  width: 304px;
+  height: 479px;
+  background: #ffffff;
+  border: 1.5px solid #d3a373;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 26px #fbf6f1;
+  border-radius: 20px;
+}
+
+.testimonial-tituloCard {
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.0025em;
+  color: #302c2c;
+  background-color: #ffffff;
+  border-bottom: none;
+  text-align: center;
+}
+
+.card-body {
+  box-shadow: none;
+}
+
+.testimonial-subtitulo {
+  width: 256px;
+  height: 24px;
+  font-family: $roboto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #302c2c;
+}
+
+.testionial-text {
+  width: 256px;
+  height: 248px;
+  font-family: $roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.0025em;
+  color: #302c2c;
+}
+
+.testimonial-icono {
+  background-image: url(../IMG/loto.png);
+  background-size: cover;
+  background-position: center;
+  width: 72px;
+  height: 60px;
+  padding: 0%;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding: 40px 10px;
+  height: 600px;
+  width: 80%;
+  margin: auto;
+}
+
+.owl-dots {
+  width: 40%;
+  margin: auto;
+  color: darkslategray;
+}
+.owl-nav {
+  margin: auto;
+  text-align: center;
+  font-size: 48px;
+  line-height: 24px;
+}
+
+@media (max-width: 575.5px) {
+  .container {
+    margin: 0px;
+    padding: 20px;
+  }
+}

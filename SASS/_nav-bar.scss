@@ -1,0 +1,36 @@
+.navbar{
+    background-color: $blanco;
+    height: 100px;
+    .container-fluid{
+        font-family: $roboto;
+        font-weight: 500;
+        height: 100px;
+        
+        .navbar-brand{
+            padding-left: 30px;
+            img{
+                width: 150px;
+            }
+        }
+
+        .collapse{
+            display: flex;
+            justify-content: end;
+        
+            .navbar-nav{
+                a{
+                    text-align: center;
+                    font-size: 18px;
+                    margin: 30px;
+                    color: $negro;
+                }
+
+                a:hover{
+                    background: $marronClaro;
+                    border-radius: 6px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
